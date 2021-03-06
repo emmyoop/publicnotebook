@@ -8,7 +8,7 @@ Practice Repo to Demonstrate Publishing Jupyter Notebooks to static sites
 - create notebook, install dependancies as needed, test!
 - generate environment.yml - make sure not to get OS specific builds
  (https://github.com/jupyterhub/binder/issues/149)
-```env export --no-builds -f environment.yml```
+```conda env export --no-builds --from-history > environment.yml```
 - commit!
 
 TODO: binder

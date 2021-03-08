@@ -36,8 +36,6 @@ not available on conda, must pip install it
 - I created a folder I will put all of them in.
 ```<iframe width="100%" height="50%" src="/embed_notebooks/majors-test.html"></iframe>```
 
-todo: make the notebook interesting to display for this case
-todo: make notebook interactive - maybe use nbinteracts feature to allow uses to select which major to see over time?
 todo: resize it better
 
 resources:

@@ -35,6 +35,7 @@ TODO: embed on page
 - install NBInteract
 not available on conda, must pip install it
 - navigate to directory holding the notebook file and run this to create an HTML file with the same name as the notebook
+- need to specify the main instead of master branch since github no longer uses master branches - i subbited pulle request to fix this
 ```nbinteract majors.ipynb -s emmyoop/publicnotebook```
 - modify the resulting HTML file
     - HTML5

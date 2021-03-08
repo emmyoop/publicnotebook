@@ -5,4 +5,6 @@ dependencies:
   - pandas
   - matplotlib
   - notebook
+  - pip:
+      - nbinteract
 prefix: /Users/emily/anaconda3/envs/public-notebook-env

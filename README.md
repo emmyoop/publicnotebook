@@ -10,6 +10,12 @@ Practice Repo to Demonstrate Publishing Jupyter Notebooks to static sites
 - generate environment.yml - make sure not to get OS specific builds so don't include builds and only include what you specifically installed, not dependancies
  (https://github.com/jupyterhub/binder/issues/149)
 ```conda env export --no-builds --from-history > environment.yml```
+- manually add nbinteract (or any other pip installs)
+```
+  - pip:
+      - nbinteract
+```
+
 - commit!
 
 TODO: binder
@@ -21,6 +27,9 @@ note: when you build with Binder the logs have a bunch of red output - it doesn'
 
 - direct access at
 - https://mybinder.org/v2/gh/<GitHub Username>/<repository name>/HEAD
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/emmyoop/publicnotebook/main?filepath=majors.ipynb)
+
 
 TODO: embed on page
 - install NBInteract

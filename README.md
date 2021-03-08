@@ -17,7 +17,7 @@ TODO: binder
 - click launch
 note: when you build with Binder the logs have a bunch of red output - it doesn't necesarily mean an error
 
-- on success it will launch the familiar jupyter notebook homepage
+- on success it will launch the familiar jupyter notebook homepage.  wait until the itneractive version launches and play with it to make sure it all works as expected
 
 - direct access at
 - https://mybinder.org/v2/gh/<GitHub Username>/<repository name>/HEAD

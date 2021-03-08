@@ -6,6 +6,7 @@ Practice Repo to Demonstrate Publishing Jupyter Notebooks to static sites
 ```conda create --n myenv```
 ```conda activate myenv```
 - create notebook, install dependancies as needed, test!
+- for extra fun make it interactive with ipywidgets (https://www.nbinteract.com/tutorial/tutorial_interact.html)
 - generate environment.yml - make sure not to get OS specific builds so don't include builds and only include what you specifically installed, not dependancies
  (https://github.com/jupyterhub/binder/issues/149)
 ```conda env export --no-builds --from-history > environment.yml```
@@ -32,5 +33,16 @@ not available on conda, must pip install it
     - only include the cells you want (kinda hacky)
     
 - move html file into your blog
+- I created a folder I will put all of them in.
+```<iframe width="100%" height="50%" src="/embed_notebooks/majors-test.html"></iframe>```
+
+todo: make the notebook interesting to display for this case
+todo: make notebook interactive - maybe use nbinteracts feature to allow uses to select which major to see over time?
+todo: resize it better
+
+resources:
+https://elc.github.io/posts/embed-interactive-notebooks/
+https://mybinder.org/
+https://www.nbinteract.com/
 
 

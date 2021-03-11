@@ -15,8 +15,17 @@ Practice Repo to Demonstrate Publishing Jupyter Notebooks to static sites
   - pip:
       - nbinteract
 ```
+- add extnsion to initalize widget on load or it wont load properly - https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/install.html#enabling-disabling-extensions  (not sure we want to do this - it broke me - trying to replicate)
+```
+conda install -c conda-forge jupyter_contrib_nbextensions
 
+jupyter contrib nbextension install --user
+
+jupyter nbextension enable init_cell/main
+```
 - commit!
+
+- Still under investigation but I had to pip install nbinteract BEFORE all other packages I added via conda.  I could not get the right versions of everything otherwise.
 
 TODO: binder
 - fill in page based on your repo https://mybinder.org/
